@@ -26,10 +26,10 @@
             <asp:Image ID="LogoImage" runat="server" ImageUrl="~/images/logo.jpg" Width="80px" Height="80px" />
         </div>
 
-        <div class="search-bar">
+        <%--<div class="search-bar">
             <asp:TextBox ID="SearchBox" runat="server" CssClass="form-control" placeholder="Search"></asp:TextBox>
             <asp:Image ID="SearchIcon" runat="server" ImageUrl="~/images/Search_Icon.svg.png" Width="30px" Height="30px" />
-        </div>
+        </div>--%>
 
         <nav>
             <ul class="nav">
@@ -113,7 +113,7 @@
                     <div class="service-div">
                         <asp:Image ID="mobileImg" runat="server" CssClass="imgclass" ImageUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXJ7hkPLsgWmBXs07adqKVbPJbRN33FHTFA&s" Height="200"/>
                         <div class="service-text">
-                        <h3>Mobile Application Development</h3>
+                        <h3>Mobile App Development</h3>
                         
                         <p>Our team develops intuitive and engaging mobile apps for iOS and Android platforms, enhancing your reach and customer engagement.</p>
                     </div>
